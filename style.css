@@ -321,6 +321,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 #menu-brasa ul li{
     float: right;
     width: 80%;
+	margin-bottom: 3%;
 }
 
 #menu-brasa a {
@@ -336,22 +337,36 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 #menu-brasa li.atual-design {
 	color: #FFF;
 	width: 88%;
+	background: url("images/text_azul_pq.jpg") repeat scroll 0 0 #83d4db;
 }
 #menu-brasa li.atual-web {
 	color: #FFF;
 	width: 88%;
+	background: url("images/text_laranja_pq.jpg") repeat scroll 0 0 #f2cd3e;
 }
 #menu-brasa li.atual-cultura {
 	color: #FFF;
 	width: 88%;
+	background: url("images/text_verde_pq.jpg") repeat scroll 0 0 #879D49;
 }
+
+#menu-brasa li.atual-cultura a {
+	background: none !important;
+}
+
+#menu-brasa li.atual-design a{
+	background: none !important;
+}
+#menu-brasa li.atual-web a{
+	background: none !important;
+}
+
 #menu-brasa li a {
 	background: none repeat scroll 0 0 #999999;
 	color: #EEEEEE;
 	overflow: hidden;
     padding: 20px 10%;
     width: 80%;
-	margin-bottom: 3%;
 }
 
 #menu-brasa ul li a:hover {
@@ -363,7 +378,6 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 	overflow: hidden;
     padding: 20px 10%;
     width: 80%;
-	margin-bottom: 3%;
 }
 
 #menu-brasa li.menu-web a:hover{
@@ -376,7 +390,6 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 	overflow: hidden;
     padding: 20px 10%;
     width: 80%;
-	margin-bottom: 3%;
 }
 
 #menu-brasa li.menu-design a:hover{
@@ -389,7 +402,6 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 	overflow: hidden;
     padding: 20px 10%;
     width: 80%;
-	margin-bottom: 3%;
 }
 
 #menu-brasa li.menu-cultura a:hover{
@@ -1460,7 +1472,7 @@ h3#pings {
 }
 
 #box-single:hover {
-	background: #C94A14;
+	background: #CF4218;
 }
 
 #box-single span {
