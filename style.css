@@ -359,7 +359,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 }
 
 #menu-brasa li.menu-web a{
-	background: none repeat scroll 0 0 #F2CD3E;
+    background: url("images/text_laranja_pq.jpg") repeat scroll 0 0 #f2cd3e;
 	overflow: hidden;
     padding: 20px 10%;
     width: 80%;
@@ -371,7 +371,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 }
 
 #menu-brasa li.menu-design a{
-	background: none repeat scroll 0 0 #83D4DB;
+	background: url("images/text_azul_pq.jpg") repeat scroll 0 0 #83d4db;
 	overflow: hidden;
     padding: 20px 10%;
     width: 80%;
@@ -383,7 +383,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 }
 
 #menu-brasa li.menu-cultura a{
-	background: none repeat scroll 0 0 #879D49;
+  background: url("images/text_verde_pq.jpg") repeat scroll 0 0 #879D49;
 	overflow: hidden;
     padding: 20px 10%;
     width: 80%;
@@ -1913,4 +1913,3 @@ p.p-roll {
 	text-align: center;
 }
 	
-
