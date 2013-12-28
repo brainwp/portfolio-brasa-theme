@@ -1885,12 +1885,6 @@ font-size: 1.3em;
 	border-radius: 5px;
 }
 
-.tb-close-icon {
-	background: url("images/x.png") no-repeat !important;
-    height: 25px !important;
-    width: 25px !important;
-}
-
 span.roll {
 	background:url("images/mag.png") center center no-repeat #000;
 	height: 300px;
