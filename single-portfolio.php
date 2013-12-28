@@ -76,9 +76,11 @@ get_header( 'portfolio' ); ?>
                 
 				<?php if (empty($metabrasa_url)) {
                 } else { ?>
-                <div id="box-single">
-				<a href="<?php echo $metabrasa_url; ?>" target="_blank">Acesse!</a>
+				<a href="<?php echo $metabrasa_url; ?>" target="_blank">                
+				<div id="box-single">
+				<span>Acesse!</span>
 				</div><!-- #box-single -->
+				</a>
 				<?php }	?>
                 
 				<div id="hack-100"></div>

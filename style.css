@@ -1450,7 +1450,7 @@ h3#pings {
 	float: left;
 	margin: 30px 0 0 30px;
 	width: auto;
-	padding: 20px 40px;
+	padding: 20px 30px 20px 40px;
 	background: #d54a0d;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -1458,8 +1458,16 @@ h3#pings {
 	font-weight: bold;
 	font-size: 1.3em;
 }
-#box-single a {
-	color: #FFF;
+
+#box-single:hover {
+	background: #C94A14;
+}
+
+#box-single span {
+   background: url("images/seta-botao-acesse.png") no-repeat scroll 75px 3px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    padding-right: 51px;
+    width: auto;
 }
 #hack-100 {
 	width: 100%;
