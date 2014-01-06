@@ -192,7 +192,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 	width: 20%;
 	position: fixed;
 	display: block;
-	background: url(images/bg-esq.jpg) repeat fixed left top #677b6e;
+	background: url(images/bg-esq.jpg) repeat fixed left top #f9f6f1;
 	padding: 0;
 	height: 100%;
 	overflow: hidden;
@@ -665,7 +665,6 @@ footer.entry-meta:before, footer.entry-meta:after {
 	font-size:2.3em;
 	line-height:1.4em;
 	text-shadow: 0px 1px 1px #000;
-	-webkit-box-shadow: 0 1px 0 0 #000;
 	color: #CCC;
 }
 #content h1, #content h2, #content h3 {

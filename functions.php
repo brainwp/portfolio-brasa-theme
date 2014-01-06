@@ -25,6 +25,9 @@ function add_themescript(){
 }
 add_action('init','add_themescript');
 
+// Insere o CPT Portolio
+require_once (get_stylesheet_directory() . '/extensions/portfolio-post-type/portfolio-post-type.php');
+
 // Insere os metaboxes (MetaBrasa) no CPT Portolio
 require_once (get_stylesheet_directory() . '/metaboxes-portfolio.php');
 
