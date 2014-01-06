@@ -192,7 +192,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 	width: 20%;
 	position: fixed;
 	display: block;
-	background: url(images/bg-esq.jpg) repeat fixed left top #677b6e;
+	background: url(images/bg-esq.jpg) repeat fixed left top #f9f6f1;
 	padding: 0;
 	height: 100%;
 	overflow: hidden;
