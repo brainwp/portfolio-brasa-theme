@@ -8,7 +8,7 @@ if ( function_exists( 'add_image_size' ) ) {
 // Função do Carousel na Unha.
 function load_caroufredsel() {
 	$path_theme = get_bloginfo('stylesheet_directory');
-    wp_register_script( 'caroufredsel', $path_theme . '/js/jquery.carouFredSel-6.1.0-packed.js', array( 'jquery' ), '6.1.0', true );
+    wp_register_script( 'caroufredsel', $path_theme . '/js/jquery.carouFredSel-6.2.1-packed.js', array( 'jquery' ), '6.2.1', true );
     wp_enqueue_script( 'caroufredsel_pre', $path_theme . '/js/caroufredsel_pre.js', array( 'caroufredsel' ), '', true );
     wp_enqueue_script( 'custom-hover', $path_theme . '/js/custom-hover.js');
 }
