@@ -8,7 +8,8 @@ jQuery(function() {
 		circular: true,
 		fx: 'fade',
 		auto: {
-			delay: 3000,
+			play: true,			
+			delay: 2000,
 		},
 		scroll		: {
 			fx: "directscroll",
