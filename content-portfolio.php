@@ -71,7 +71,7 @@ if ( post_password_required() ) {
 
 		<?php endwhile; ?>
 
-        <?php portfoliopress_content_nav(); ?>
+        <?php // portfoliopress_content_nav(); ?>
 			
 		<?php else: ?>
 
