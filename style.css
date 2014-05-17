@@ -966,6 +966,15 @@ embed, iframe, object {
 	width:100%;
 }
 
+#portfolio .thumb:hover {
+	background: #000;
+	opacity: 0.9;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+	filter: alpha(opacity=10);
+	-moz-opacity:0.1;
+	-khtml-opacity: 0.1;
+}
+
 .desc {
 
 }
@@ -1011,7 +1020,63 @@ embed, iframe, object {
 	max-width: 980px;
 }
 
-/* Pagination / WP-Pagenavi */
+/* Pagination */
+
+.page_nav {
+
+    border-image: none;
+    clear: both;
+    font-size: 12px;
+    padding: 30px 15px;
+    position: relative;
+    text-align: center;
+}
+
+.page-numbers {
+}
+
+#navigation {
+    display: block;
+}
+#navigation a, .page_nav a:link, .page_nav a:visited, .page_nav.current, .page_nav a:hover, .page_nav span.extend, .page_nav span.pages {
+    color: #777777;
+    display: block;
+    font: 15px "Open Sans",sans-serif;
+    padding: 0;
+    text-decoration: none;
+}
+#navigation ul-entries a:hover {
+    text-decoration: underline;
+}
+.page_nav a:link, .page_nav a:visited {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #666666;
+    display: inline;
+    margin-left: 10px;
+    padding: 3px 7px;
+    text-decoration: none;
+}
+.page_nav.current, .page_nav a:hover {
+    background: none repeat scroll 0 0 #377587;
+    color: #FFFFFF;
+    display: inline;
+    margin-left: 10px;
+    padding: 3px 7px;
+}
+.page_nav span.current {
+    background: none repeat scroll 0 0 #377587;
+    color: #FFFFFF;
+    display: inline;
+    font: 15px "Open Sans",sans-serif;
+    margin-left: 10px;
+    padding: 3px 7px;
+}
+.page_nav span.extend, .page_nav span.pages {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #666666;
+    display: inline;
+}
 
 /* If you're using PageNavi you should turn the css in its settings page */
 
