@@ -1,6 +1,6 @@
 /*
 Theme Name: Portfolio Brasa Theme
-Template: portfolio-press
+Template: portfolio-press-custom
 Description: Portfolio Press is a responsive theme for showcasing your photography, art, web sites, or other projects.  It also works nicely as a regular blog site.  An options panel is included for uploading logos and and changing the layout.  There's also support for the image, gallery and quote post formats.  Visit the <a href="http://themes.wptheming.com/portfolio/">demo site</a> or watch the <a href="http://wptheming.com/portfolio-theme">video screencast</a> for set up instructions.
 Author: Brasa Design
 Author URI: http://wptheming.com/
@@ -977,7 +977,6 @@ embed, iframe, object {
 	display:block;
 	font-size:16px;
 	color:#fff;
-	display:none;
 }
 #portfolio a.title-overlay {
 	font-family: 'Source Sans Pro', sans-serif;

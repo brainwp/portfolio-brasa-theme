@@ -45,11 +45,9 @@ get_header( 'portfolio' ); ?>
 									$url = wp_get_attachment_url( $attachment_id ); 
                                     ?>
                             <li>
-                            <?php /*
-                            if ($description):
+                            <?php /* if ($description):
                             echo '<div id="desc-slide">' . $description . '</div>';
-                            endif; */
-                            ?>
+                            endif; */ ?>
                             <a href="<?php echo $url; ?>" class="thickbox image">
                             <span class="roll"><p class="p-roll">Ampliar</p></span>
                             <img src="<?php echo $image_attributes[0]; ?>" width="<?php echo $image_attributes[1]; ?>" height="<?php echo $image_attributes[2]; ?>" alt="<?php echo apply_filters('the_title', $anexo->post_title); ?>"></a>
@@ -57,8 +55,8 @@ get_header( 'portfolio' ); ?>
                             <?php } } ?>
                         </ul>
                         <div class="clearfix"></div>
-                        <a class="prev" id="prev2" href="#"><span>ante</span></a>
-                        <a class="next" id="next2" href="#"><span>segui</span></a>
+                        <a class="prev" id="prev2" href="#"><span>anterior</span></a>
+                        <a class="next" id="next2" href="#"><span>seguinte</span></a>
                     </div>
                 
 				</div><!-- #slider-single -->
